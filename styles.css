@@ -28,7 +28,7 @@ html, body {
 }
 
 .sidebar {
-    width: 33%;
+    width: 50%;
     background-image: url('./util/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     position: relative;
@@ -68,3 +68,82 @@ html, body {
 a {
     color: inherit;
 }
+
+/* Right-hand side */
+
+.content {
+    width: 100%; 
+    background-color: #F9FAFB;
+}
+
+.caption {
+    margin: 8rem 0 4rem 3rem;
+    max-width: 72ch;
+}
+
+.form {
+    background-color: white;
+    padding: 2rem 0 2rem 3rem;
+}
+
+.form h2 {
+    margin: 0;
+}
+
+.form-row {
+    display: flex;
+    gap: 4rem;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+
+input:focus {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    outline: 1px solid #005FCC;
+}
+
+input:invalid {
+    outline: 1px solid red;
+}
+
+/* bottom */
+
+button {
+  all: unset; /* Removes all default browser styles */
+  cursor: pointer; /* Restores the pointer cursor for usability */
+  /* Ensure accessibility by restoring focus styles */
+}
+
+/* Add focus styles for keyboard navigation accessibility */
+button:focus {
+  outline: auto 1px blue; 
+}
+
+.bottom {
+    padding: 2rem 3rem;
+}
+
+.create-account {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+.bottom a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
